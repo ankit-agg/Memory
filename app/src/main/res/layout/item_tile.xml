@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="40dp"
+    android:layout_height="40dp"
+    android:background="@drawable/bg_tile_outline">
+
+    <TextView
+        android:id="@+id/tile_description"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:textColor="#4A4A4A"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        tools:text="1" />
+
+</android.support.constraint.ConstraintLayout>
